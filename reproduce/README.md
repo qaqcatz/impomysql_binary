@@ -2,12 +2,7 @@
 
 The reproduction requires a large amount of CPU, memory, and disk resources. For example, for bug deduplication, you need to deploy 420 different versions of DBMSs on your machine. Therefore, please conduct the experiment on our server.
 
-```shell
-ssh -p 7005 aosp@108.61.156.164
-cd /home/aosp/projects/database/reproduce
-```
-
-> There are other important data on our server, please do not leave this directory! :-)
+You can get the address and password of our server from **Comments for AEC** in AE submission
 
 **Note that, due to concurrency and some random features of DBMS, the results may not be reproduced exactly. We will provide results with an allowed tolerance. **
 
